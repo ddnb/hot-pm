@@ -1,0 +1,11 @@
+:root {
+  --vp-c-brand: #646cff;
+  --vp-c-brand-dark: #535bf2;
+}
+
+.demo {
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid var(--vp-c-divider);
+  margin: 16px 0;
+}
