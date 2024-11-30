@@ -4,6 +4,10 @@ export default defineConfig({
   lang: 'en-US',
   title: 'VitePress',
   description: 'Vite & Vue powered static site generator.',
+  base: '/your-repo-name/', // Will be replaced with your actual repository name
+  head: [
+    ['link', { rel: 'stylesheet', href: '/custom.css' }]
+  ],
 
   themeConfig: {
     nav: [
